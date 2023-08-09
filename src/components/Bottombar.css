@@ -1,0 +1,65 @@
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 1024px) { /* Tablettes */
+    .navbar {
+        padding: 1rem 3%; /* Ajuster le padding pour tablettes */
+    }
+}
+
+@media (max-width: 768px) { /* Mobiles */
+    .navbar {
+        justify-content: space-between;
+        padding: 0.5rem 3%; 
+    }
+    .bottom-bar {
+        padding: 0.5rem 3%; /* Ajuster le padding pour mobiles */
+    }
+}
+
+@media (min-width: 769px) {
+    .bottom-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) { /* Mobiles */
+    .navbar {
+        justify-content: space-between;
+        padding: 0.5rem 3%; 
+    }
+    .navbar-left, .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+    .icon {
+        margin: 0 15px;
+    }
+    .bottom-bar {
+        justify-content: space-around; /* Équilibre l'espace entre les trois icônes */
+    }
+}
+
+@media (max-width: 768px) { /* Mobiles */
+    .navbar {
+        justify-content: space-between;
+        padding: 0.5rem 3%; 
+    }
+    .navbar-left, .navbar-right {
+        display: flex;
+        align-items: center;
+    }
+    .icon {
+        margin: 0 15px;
+    }
+    .bottom-bar {
+        justify-content: space-around; /* Équilibre l'espace entre les trois icônes */
+    }
+}

@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Knewave';
+    src: url('../assets/fonts/Knewave-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.navbar {
+    background-color: #218AC6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%; /* Augmenter le padding pour s'éloigner des marges */
+    position: relative;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.8rem; /* Agrandir les icônes */
+    margin: 0 30px;
+}
+
+.icon {
+    font-size: 1.5rem; /* Agrandir les icônes */
+}
+
+.app-name {
+    color: white;
+    font-family: 'Knewave', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centrer le texte horizontalement */
+}
+
+.announcement-btn {
+    color :  #218AC6;
+    font-family: 'Knewave', cursive;
+    font-weight: 700;
+    font-size: large;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin-right: 20px; /* Ajuster la marge pour décaler le bouton */
+}
+
+@media (max-width: 1024px) { /* Tablettes */
+    .navbar {
+        padding: 1rem 2%; /* Ajuster le padding pour tablettes */
+    }
+
+    .icon-container {
+        padding: 0.6rem; /* Réduire le padding autour des SVG */
+    }
+    .navbar-left .icon-container {
+        margin: 0 20px; /* Réduire la marge entre les icônes pour les tablettes */
+    }
+
+    .app-name {
+        font-size: 2.5rem; /* Réduire la taille de la police pour le nom de l'application */
+    }
+
+    .announcement-btn {
+        margin-right: 15px; /* Ajuster la marge pour tablettes */
+        padding: 0.4rem 1.2rem; /* Réduire le padding du bouton */
+        font-size: medium; /* Ajuster la taille de la police du bouton */
+    }
+}
+@media (max-width: 768px) { /* Mobiles */
+    .navbar-mobile {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    .bottom-bar {
+        padding: 0.5rem 3%; /* Ajuster le padding pour mobiles */
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-mobile {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+    }
+}
+    .bottom-bar {
+        display: none;
+    }

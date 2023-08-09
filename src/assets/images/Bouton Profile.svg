@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Bouton Profile">
+        <!-- Cercle blanc (déjà rapetissé avec un rayon de 45) -->
+        <circle id="Ellipse 1" cx="50" cy="50" r="45" fill="white"/>
+
+        <!-- Groupe contenant l'icône "profile", avec une transformation pour agrandir et recentrer l'icône -->
+        <g id="&#240;&#159;&#166;&#134; icon &#34;profile&#34;" transform="scale(1.2) translate(-10,-10)">
+            <g id="Group">
+                <path id="Vector" d="M49.9857 52.0117C49.6924 51.9823 49.3405 51.9823 49.0179 52.0117C42.0384 51.7771 36.4958 46.0586 36.4958 39.0205C36.4958 31.8358 42.3023 26 49.5165 26C56.7012 26 62.537 31.8358 62.537 39.0205C62.5076 46.0586 56.9651 51.7771 49.9857 52.0117Z" stroke="#292D32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path id="Vector_2" d="M35.3226 62.8328C28.2258 67.5835 28.2258 75.3254 35.3226 80.0468C43.3871 85.4427 56.6129 85.4427 64.6774 80.0468C71.7742 75.2961 71.7742 67.5542 64.6774 62.8328C56.6423 57.4662 43.4164 57.4662 35.3226 62.8328Z" stroke="#292D32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </g>
+    </g>
+</svg>

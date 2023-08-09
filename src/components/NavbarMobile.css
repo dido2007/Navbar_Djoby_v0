@@ -1,0 +1,55 @@
+.navbar-mobile {
+    background-color: #218AC6;
+    display: none; /* Par défaut, on cache la navbar mobile */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%; /* Augmenter le padding pour s'éloigner des marges */
+}
+
+.navbar-mobile-left, .navbar-mobile-right {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: white;
+    font-size: 1.5rem; /* Agrandir les icônes */
+}
+
+.app-name-mobile {
+    color: white;
+    font-family: 'Knewave', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centrer le texte horizontalement */
+}
+
+.icon-container {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.8rem; /* Agrandir les icônes */
+    margin: 0 30px;
+}
+
+@media (max-width: 768px) { /* Cette taille est à ajuster selon vos besoins */
+    .navbar-mobile {
+        display: flex; /* On affiche la navbar mobile sur les écrans de taille ≤ 768px */
+        padding: 0.5rem 3%; 
+    }
+}
+
+@media (max-width: 1024px) { 
+    .navbar-mobile {
+        padding: 1rem 3%;
+    }
+    .icon-container {
+        padding: 0.6rem; 
+        margin: 0 20px;
+    }
+    .app-name-mobile {
+        font-size: 2.5rem;
+    }
+}
